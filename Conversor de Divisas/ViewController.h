@@ -17,7 +17,9 @@
 
 // MARK: - Actions
 
-- (IBAction)ConvertirButtonPressed:(UIButton *)sender;
+- (IBAction)convertirDolarButtonPressed:(UIButton *)sender;
+- (IBAction)convertirLibrasButtonPressed:(UIButton *)sender;
+- (IBAction)convertirYenButtonPressed:(UIButton *)sender;
 
 @end
 

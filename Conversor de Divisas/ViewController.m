@@ -17,6 +17,8 @@
 // MARK: - Global Variables
 
 const float EUR_TO_DOLAR = 1.18955; // Constante
+const float EUR_TO_POUNDS = 0.895408355;
+const float EUR_TO_YEN = 132.304527;
 
 // MARK: - ViewController life cicle
 
@@ -34,12 +36,30 @@ const float EUR_TO_DOLAR = 1.18955; // Constante
 
 // MARK: - Buttons Actions
 
-- (IBAction)ConvertirButtonPressed:(UIButton *)sender
+- (IBAction)convertirDolarButtonPressed:(UIButton *)sender
 {
     float euroValue = [self.euroTextField.text floatValue];
     float dolarValue = euroValue * EUR_TO_DOLAR;
     
-    [self.resultLabel setText: [NSString stringWithFormat: @"%.2f€ = %.2f$", euroValue, dolarValue]];
+    [self.resultLabel setText: [NSString stringWithFormat: @"%.2f EUR = %.2f USD", euroValue, dolarValue]];
+    self.resultLabel.hidden = NO;
+}
+
+- (IBAction)convertirLibrasButtonPressed:(UIButton *)sender
+{
+    float euroValue = [self.euroTextField.text floatValue];
+    float poundValue = euroValue * EUR_TO_POUNDS;
+    
+    [self.resultLabel setText: [NSString stringWithFormat: @"%.2f EUR = %.2f GBP", euroValue, poundValue]];
+    self.resultLabel.hidden = NO;
+}
+
+- (IBAction)convertirYenButtonPressed:(UIButton *)sender
+{
+    float euroValue = [self.euroTextField.text floatValue];
+    float yenValue = euroValue * EUR_TO_YEN;
+    
+    [self.resultLabel setText: [NSString stringWithFormat: @"%.2f EUR = %.2f JPY", euroValue, yenValue]];
     self.resultLabel.hidden = NO;
 }
 
