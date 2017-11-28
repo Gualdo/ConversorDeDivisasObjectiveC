@@ -1,24 +1,101 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13122.16" systemVersion="17A277" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13104.12"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13527"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
+    <customFonts key="customFonts">
+        <array key="Palatino.ttc">
+            <string>Palatino-Roman</string>
+        </array>
+    </customFonts>
     <scenes>
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModuleProvider="" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Conversor de EUR / USD" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2mE-W7-RuH">
+                                <rect key="frame" x="16" y="50" width="343" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Monto en €" textAlignment="right" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Aqe-mj-7B2">
+                                <rect key="frame" x="16" y="79" width="324" height="30"/>
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" keyboardType="decimalPad"/>
+                            </textField>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="€" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Niy-Kp-WnO">
+                                <rect key="frame" x="348" y="84" width="11" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LsX-qL-MgN">
+                                <rect key="frame" x="16" y="134" width="343" height="46"/>
+                                <color key="backgroundColor" red="0.27959967452116513" green="0.64521939766839376" blue="0.64002405409137419" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" name="Palatino-Roman" family="Palatino" pointSize="30"/>
+                                <state key="normal" title="Convertir">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <action selector="ConvertirButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="gYu-6Q-pve"/>
+                                </connections>
+                            </button>
+                            <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="El resultado es..." textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="TIB-CP-06B">
+                                <rect key="frame" x="16" y="188" width="343" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Bag_of_Coins" translatesAutoresizingMaskIntoConstraints="NO" id="qxn-10-QJA">
+                                <rect key="frame" x="16" y="303" width="343" height="276"/>
+                            </imageView>
+                        </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="2mE-W7-RuH" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="1wq-3q-gNi"/>
+                            <constraint firstItem="Niy-Kp-WnO" firstAttribute="top" secondItem="2mE-W7-RuH" secondAttribute="bottom" constant="13" id="3cy-VW-gTy"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="LsX-qL-MgN" secondAttribute="trailing" constant="16" id="3s1-AJ-XxW"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="TIB-CP-06B" secondAttribute="trailing" constant="16" id="9Ba-Az-x3D"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="Niy-Kp-WnO" secondAttribute="trailing" constant="16" id="9g8-AZ-WXS"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="qxn-10-QJA" secondAttribute="bottom" constant="88" id="AGJ-1b-e9j"/>
+                            <constraint firstItem="Aqe-mj-7B2" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="Ae4-g7-8Yx"/>
+                            <constraint firstItem="TIB-CP-06B" firstAttribute="top" secondItem="LsX-qL-MgN" secondAttribute="bottom" constant="8" id="Cup-ck-NzZ"/>
+                            <constraint firstItem="TIB-CP-06B" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="HQS-Za-wpM"/>
+                            <constraint firstItem="LsX-qL-MgN" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="M4g-Pb-OvW"/>
+                            <constraint firstItem="Aqe-mj-7B2" firstAttribute="top" secondItem="2mE-W7-RuH" secondAttribute="bottom" constant="8" id="bF8-hq-utb"/>
+                            <constraint firstItem="qxn-10-QJA" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="bQn-rD-7mL"/>
+                            <constraint firstItem="Niy-Kp-WnO" firstAttribute="leading" secondItem="Aqe-mj-7B2" secondAttribute="trailing" constant="8" id="dlA-jC-0iS"/>
+                            <constraint firstItem="2mE-W7-RuH" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="30" id="dwW-Fa-HoI"/>
+                            <constraint firstItem="qxn-10-QJA" firstAttribute="top" secondItem="TIB-CP-06B" secondAttribute="bottom" constant="94" id="jwj-Yy-uDh"/>
+                            <constraint firstItem="LsX-qL-MgN" firstAttribute="top" secondItem="Aqe-mj-7B2" secondAttribute="bottom" constant="25" id="pHP-Uf-yAa"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="qxn-10-QJA" secondAttribute="trailing" constant="16" id="sDc-Cr-7EX"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="2mE-W7-RuH" secondAttribute="trailing" constant="16" id="tF1-YD-fls"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
+                    <connections>
+                        <outlet property="euroTextField" destination="Aqe-mj-7B2" id="2WK-SX-Jcg"/>
+                        <outlet property="resultLabel" destination="TIB-CP-06B" id="FLO-eQ-Idy"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="117.59999999999999" y="117.39130434782609"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="Bag_of_Coins" width="276" height="276"/>
+    </resources>
 </document>

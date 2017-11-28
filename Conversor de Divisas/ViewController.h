@@ -10,6 +10,14 @@
 
 @interface ViewController : UIViewController
 
+// MARK: - Outlets
+
+@property (weak, nonatomic) IBOutlet UITextField *euroTextField;
+@property (weak, nonatomic) IBOutlet UILabel *resultLabel;
+
+// MARK: - Actions
+
+- (IBAction)ConvertirButtonPressed:(UIButton *)sender;
 
 @end
 
