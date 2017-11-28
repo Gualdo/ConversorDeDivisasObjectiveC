@@ -1,0 +1,557 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A321262A1FCDA88F0019FADD /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A32126291FCDA88F0019FADD /* AppDelegate.m */; };
+		A321262D1FCDA88F0019FADD /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A321262C1FCDA88F0019FADD /* ViewController.m */; };
+		A32126301FCDA88F0019FADD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A321262E1FCDA88F0019FADD /* Main.storyboard */; };
+		A32126321FCDA88F0019FADD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A32126311FCDA88F0019FADD /* Assets.xcassets */; };
+		A32126351FCDA88F0019FADD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A32126331FCDA88F0019FADD /* LaunchScreen.storyboard */; };
+		A32126381FCDA88F0019FADD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A32126371FCDA88F0019FADD /* main.m */; };
+		A32126421FCDA8900019FADD /* Conversor_de_DivisasTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A32126411FCDA8900019FADD /* Conversor_de_DivisasTests.m */; };
+		A321264D1FCDA8900019FADD /* Conversor_de_DivisasUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = A321264C1FCDA8900019FADD /* Conversor_de_DivisasUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A321263E1FCDA8900019FADD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A321261D1FCDA88F0019FADD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A32126241FCDA88F0019FADD;
+			remoteInfo = "Conversor de Divisas";
+		};
+		A32126491FCDA8900019FADD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A321261D1FCDA88F0019FADD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A32126241FCDA88F0019FADD;
+			remoteInfo = "Conversor de Divisas";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A32126251FCDA88F0019FADD /* Conversor de Divisas.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Conversor de Divisas.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A32126281FCDA88F0019FADD /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		A32126291FCDA88F0019FADD /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		A321262B1FCDA88F0019FADD /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		A321262C1FCDA88F0019FADD /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		A321262F1FCDA88F0019FADD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A32126311FCDA88F0019FADD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A32126341FCDA88F0019FADD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A32126361FCDA88F0019FADD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A32126371FCDA88F0019FADD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A321263D1FCDA8900019FADD /* Conversor de DivisasTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Conversor de DivisasTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A32126411FCDA8900019FADD /* Conversor_de_DivisasTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Conversor_de_DivisasTests.m; sourceTree = "<group>"; };
+		A32126431FCDA8900019FADD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A32126481FCDA8900019FADD /* Conversor de DivisasUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Conversor de DivisasUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A321264C1FCDA8900019FADD /* Conversor_de_DivisasUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Conversor_de_DivisasUITests.m; sourceTree = "<group>"; };
+		A321264E1FCDA8900019FADD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A32126221FCDA88F0019FADD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A321263A1FCDA8900019FADD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A32126451FCDA8900019FADD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A321261C1FCDA88F0019FADD = {
+			isa = PBXGroup;
+			children = (
+				A32126271FCDA88F0019FADD /* Conversor de Divisas */,
+				A32126401FCDA8900019FADD /* Conversor de DivisasTests */,
+				A321264B1FCDA8900019FADD /* Conversor de DivisasUITests */,
+				A32126261FCDA88F0019FADD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A32126261FCDA88F0019FADD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A32126251FCDA88F0019FADD /* Conversor de Divisas.app */,
+				A321263D1FCDA8900019FADD /* Conversor de DivisasTests.xctest */,
+				A32126481FCDA8900019FADD /* Conversor de DivisasUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A32126271FCDA88F0019FADD /* Conversor de Divisas */ = {
+			isa = PBXGroup;
+			children = (
+				A32126281FCDA88F0019FADD /* AppDelegate.h */,
+				A32126291FCDA88F0019FADD /* AppDelegate.m */,
+				A321262B1FCDA88F0019FADD /* ViewController.h */,
+				A321262C1FCDA88F0019FADD /* ViewController.m */,
+				A321262E1FCDA88F0019FADD /* Main.storyboard */,
+				A32126311FCDA88F0019FADD /* Assets.xcassets */,
+				A32126331FCDA88F0019FADD /* LaunchScreen.storyboard */,
+				A32126361FCDA88F0019FADD /* Info.plist */,
+				A32126371FCDA88F0019FADD /* main.m */,
+			);
+			path = "Conversor de Divisas";
+			sourceTree = "<group>";
+		};
+		A32126401FCDA8900019FADD /* Conversor de DivisasTests */ = {
+			isa = PBXGroup;
+			children = (
+				A32126411FCDA8900019FADD /* Conversor_de_DivisasTests.m */,
+				A32126431FCDA8900019FADD /* Info.plist */,
+			);
+			path = "Conversor de DivisasTests";
+			sourceTree = "<group>";
+		};
+		A321264B1FCDA8900019FADD /* Conversor de DivisasUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A321264C1FCDA8900019FADD /* Conversor_de_DivisasUITests.m */,
+				A321264E1FCDA8900019FADD /* Info.plist */,
+			);
+			path = "Conversor de DivisasUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A32126241FCDA88F0019FADD /* Conversor de Divisas */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A32126511FCDA8900019FADD /* Build configuration list for PBXNativeTarget "Conversor de Divisas" */;
+			buildPhases = (
+				A32126211FCDA88F0019FADD /* Sources */,
+				A32126221FCDA88F0019FADD /* Frameworks */,
+				A32126231FCDA88F0019FADD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Conversor de Divisas";
+			productName = "Conversor de Divisas";
+			productReference = A32126251FCDA88F0019FADD /* Conversor de Divisas.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A321263C1FCDA8900019FADD /* Conversor de DivisasTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A32126541FCDA8900019FADD /* Build configuration list for PBXNativeTarget "Conversor de DivisasTests" */;
+			buildPhases = (
+				A32126391FCDA8900019FADD /* Sources */,
+				A321263A1FCDA8900019FADD /* Frameworks */,
+				A321263B1FCDA8900019FADD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A321263F1FCDA8900019FADD /* PBXTargetDependency */,
+			);
+			name = "Conversor de DivisasTests";
+			productName = "Conversor de DivisasTests";
+			productReference = A321263D1FCDA8900019FADD /* Conversor de DivisasTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A32126471FCDA8900019FADD /* Conversor de DivisasUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A32126571FCDA8900019FADD /* Build configuration list for PBXNativeTarget "Conversor de DivisasUITests" */;
+			buildPhases = (
+				A32126441FCDA8900019FADD /* Sources */,
+				A32126451FCDA8900019FADD /* Frameworks */,
+				A32126461FCDA8900019FADD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A321264A1FCDA8900019FADD /* PBXTargetDependency */,
+			);
+			name = "Conversor de DivisasUITests";
+			productName = "Conversor de DivisasUITests";
+			productReference = A32126481FCDA8900019FADD /* Conversor de DivisasUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A321261D1FCDA88F0019FADD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0910;
+				ORGANIZATIONNAME = "Eduardo de la Cruz";
+				TargetAttributes = {
+					A32126241FCDA88F0019FADD = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+					};
+					A321263C1FCDA8900019FADD = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = A32126241FCDA88F0019FADD;
+					};
+					A32126471FCDA8900019FADD = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = A32126241FCDA88F0019FADD;
+					};
+				};
+			};
+			buildConfigurationList = A32126201FCDA88F0019FADD /* Build configuration list for PBXProject "Conversor de Divisas" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A321261C1FCDA88F0019FADD;
+			productRefGroup = A32126261FCDA88F0019FADD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A32126241FCDA88F0019FADD /* Conversor de Divisas */,
+				A321263C1FCDA8900019FADD /* Conversor de DivisasTests */,
+				A32126471FCDA8900019FADD /* Conversor de DivisasUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A32126231FCDA88F0019FADD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A32126351FCDA88F0019FADD /* LaunchScreen.storyboard in Resources */,
+				A32126321FCDA88F0019FADD /* Assets.xcassets in Resources */,
+				A32126301FCDA88F0019FADD /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A321263B1FCDA8900019FADD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A32126461FCDA8900019FADD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A32126211FCDA88F0019FADD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A321262D1FCDA88F0019FADD /* ViewController.m in Sources */,
+				A32126381FCDA88F0019FADD /* main.m in Sources */,
+				A321262A1FCDA88F0019FADD /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A32126391FCDA8900019FADD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A32126421FCDA8900019FADD /* Conversor_de_DivisasTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A32126441FCDA8900019FADD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A321264D1FCDA8900019FADD /* Conversor_de_DivisasUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A321263F1FCDA8900019FADD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A32126241FCDA88F0019FADD /* Conversor de Divisas */;
+			targetProxy = A321263E1FCDA8900019FADD /* PBXContainerItemProxy */;
+		};
+		A321264A1FCDA8900019FADD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A32126241FCDA88F0019FADD /* Conversor de Divisas */;
+			targetProxy = A32126491FCDA8900019FADD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A321262E1FCDA88F0019FADD /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A321262F1FCDA88F0019FADD /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A32126331FCDA88F0019FADD /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A32126341FCDA88F0019FADD /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A321264F1FCDA8900019FADD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		A32126501FCDA8900019FADD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A32126521FCDA8900019FADD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 273FZ5G5B8;
+				INFOPLIST_FILE = "Conversor de Divisas/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.edelacruz.Conversor-de-Divisas";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A32126531FCDA8900019FADD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 273FZ5G5B8;
+				INFOPLIST_FILE = "Conversor de Divisas/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.edelacruz.Conversor-de-Divisas";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		A32126551FCDA8900019FADD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 273FZ5G5B8;
+				INFOPLIST_FILE = "Conversor de DivisasTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.edelacruz.Conversor-de-DivisasTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Conversor de Divisas.app/Conversor de Divisas";
+			};
+			name = Debug;
+		};
+		A32126561FCDA8900019FADD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 273FZ5G5B8;
+				INFOPLIST_FILE = "Conversor de DivisasTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.edelacruz.Conversor-de-DivisasTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Conversor de Divisas.app/Conversor de Divisas";
+			};
+			name = Release;
+		};
+		A32126581FCDA8900019FADD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 273FZ5G5B8;
+				INFOPLIST_FILE = "Conversor de DivisasUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.edelacruz.Conversor-de-DivisasUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Conversor de Divisas";
+			};
+			name = Debug;
+		};
+		A32126591FCDA8900019FADD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 273FZ5G5B8;
+				INFOPLIST_FILE = "Conversor de DivisasUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.edelacruz.Conversor-de-DivisasUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Conversor de Divisas";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A32126201FCDA88F0019FADD /* Build configuration list for PBXProject "Conversor de Divisas" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A321264F1FCDA8900019FADD /* Debug */,
+				A32126501FCDA8900019FADD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A32126511FCDA8900019FADD /* Build configuration list for PBXNativeTarget "Conversor de Divisas" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A32126521FCDA8900019FADD /* Debug */,
+				A32126531FCDA8900019FADD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A32126541FCDA8900019FADD /* Build configuration list for PBXNativeTarget "Conversor de DivisasTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A32126551FCDA8900019FADD /* Debug */,
+				A32126561FCDA8900019FADD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A32126571FCDA8900019FADD /* Build configuration list for PBXNativeTarget "Conversor de DivisasUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A32126581FCDA8900019FADD /* Debug */,
+				A32126591FCDA8900019FADD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A321261D1FCDA88F0019FADD /* Project object */;
+}
